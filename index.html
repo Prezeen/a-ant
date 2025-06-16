@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Capybara คาปิบาร่า</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background-color: #d7ccc8; /* พื้นหลังสีน้ำตาลอ่อน */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #3e2723;
+        }
+
+        header {
+            background-color: #5d4037;
+            color: white;
+            padding: 30px 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 20px;
+        }
+
+        .capy-image {
+            max-width: 400px;
+            width: 90%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+        .name-en {
+            font-size: 20px;
+            color: #4e342e;
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .btn {
+            background-color: #6d4c41;
+            color: white;
+            padding: 12px 25px;
+            margin: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #4e342e;
+        }
+
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            color: #3e2723;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #5d4037;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Capybara คาปิบาร่า</h1>
+        <p>สัตว์โลกแสนสงบที่น่ารักที่สุด</p>
+    </header>
+
+    <div class="container">
+        <!-- แก้ไข path รูปภาพ -->
+        <img class="capy-image" src="picture/คาปิบาร่า.jpg" alt="คาปิบาร่า">
+        <div class="name-en"> Capybara</div>
+
+        <div class="button-container">
+            <button class="btn" onclick="alert('ไปหน้าล็อกอิน')">ล็อกอิน</button>
+            <button class="btn" onclick="alert('ไปหน้าสร้างแอคเคานต์')">สร้างแอคเคานต์</button>
+            <a href="#" class="forgot-password">ลืมรหัสผ่าน?</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Capybara Lovers
+    </footer>
+
+</body>
+</html>
